@@ -1,5 +1,5 @@
 +++
-title = "About"
+# title = "About"
 author = "Jiaming Zhang"
 date = "2023-01-22"
 +++
@@ -10,7 +10,11 @@ slug = "contact" -->
 
 # Bio
 
-Hello! My name is Jiaming Zhang, you can call me <b>Jeremy</b>. I am a second year master student in Robotics at [The Johns Hopkins University](https://www.jhu.edu/). Prior joining in Hopkins, I received my Bachelor degree in Mechanical Engineering from [Huazhong University of Science and Technology](https://www.hust.edu.cn/). I'm a robotics enthusiast and my research interest includes visual perception, motion planning and medical robots.
+Hello! My name is Jiaming Zhang, you can call me <b>Jeremy</b>. I am a second year master's student in Robotics at [The Johns Hopkins University](https://www.jhu.edu/). Prior joining in Hopkins, I received my Bachelor degree in Mechanical Engineering from [Huazhong University of Science and Technology](https://www.hust.edu.cn/). I'm currently looking for PhD positions around the world.
+
+
+# Research Interest and Experience
+I'm a robotics enthusiast and my research interest includes visual perception, motion planning and medical robots. I have experiences in Hand-eye Calibration, LiDAR-based SLAM, Exoskeleton Design and Analysis, and Medical Robots.
 
 # Ongoing Project
 
