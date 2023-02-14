@@ -23,5 +23,6 @@ Currently, I'm working as a research assisant in [BIOMECHANICAL AND IMAGE GUIDED
 - Deformable Object Simulation
 - Robot TMS
 - Position-based Visual Servoing
+- Learning-based 2D/3D Fluoroscopic Image Registration
 
 
