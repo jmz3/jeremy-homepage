@@ -20,4 +20,4 @@ date = "2023-01-23"
 <b>BIGSS Lab, LCSR, JHU</b>
 
 
-[<i class="fa fa-2x fa-cloud-download"></i>](/files/PHD_CV_JiamingZhang.pdf "Download pdf")
+[<i class="fa fa-2x fa-cloud-download"></i>](/files/CV_JiamingZhang.pdf "Download pdf")
