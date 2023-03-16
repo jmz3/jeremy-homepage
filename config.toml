@@ -6,7 +6,7 @@ defaultContentLanguage = "en"
 publishDir = "docs"
 paginate = 20
 pygmentsStyle = "bw"
-pygmentsCodeFences = true
+pygmentscodefences = true 
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 # Enable Disqus comments
@@ -21,7 +21,7 @@ author = "Jiaming Zhang"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Jiaming's personal website"
 keywords = "blog,developer,personal"
-info = ["> Veritas vos Liberabit <"]
+info = [" <i>Veritas vos Liberabit</i> / <i>The truth will set you free</i> / <i>真理必将使你获得自由</i> "]
 avatarURL = "images/IMG_0821.JPG"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"

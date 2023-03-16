@@ -9,15 +9,16 @@ date = "2023-01-23"
 
 ## Education Background
 ---
-<b>Johns Hokins University</b>
-<br>&nbsp; &nbsp; M.S.E. in Robotics, GPA 3.72/4.00
-<br>
-<b>Huazhong University of Science and Technology</b>
-<br>&nbsp; &nbsp; B.E. in Mechanical Engineering, GPA 3.59/4.00
+<p style="text-align:left;"><b>Johns Hopkins University</b><span style="float:right;">Baltimore, MD, USA</span></p>
+<p style="text-align:left;">&nbsp; &nbsp; M.S.E. in Robotics, GPA 3.72/4.00<span style="float:right;">Aug. 2021 - Present</span></p>
+
+<p style="text-align:left;"><b>Huazhong University of Science and Technology</b><span style="float:right;">Wuhan, Hubei, China</span></p>
+<div style="text-align:left;">&nbsp; &nbsp; B.E. in Mechanical Engineering, GPA 3.59/4.00<span style="float:right;">Sept. 2016 - Jun. 2020</span></div>
 
 ## Research Experience
 ---
-<b>BIGSS Lab, LCSR, JHU</b>
+<p><b>BIGSS Lab, LCSR, JHU</b></p>
+<b>ARCADE Lab, [Laboratory for Computational Sensing and Robotics(LCSR)](https://lcsr.jhu.edu/), JHU</b>
 
 
 [<i class="fa fa-2x fa-cloud-download"></i>](/files/CV_JiamingZhang.pdf "Download pdf")
