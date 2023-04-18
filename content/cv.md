@@ -17,8 +17,8 @@ date = "2023-01-23"
 
 ## Research Experience
 ---
-<p><b>BIGSS Lab, LCSR, JHU</b></p>
-<b>ARCADE Lab, [Laboratory for Computational Sensing and Robotics(LCSR)](https://lcsr.jhu.edu/), JHU</b>
+<p><b>BIGSS Lab, Laboratory for Computational Sensing and Robotics(LCSR), JHU</b></p>
+<b>ARCADE Lab, Laboratory for Computational Sensing and Robotics(LCSR), JHU</b>
 
 
 [<i class="fa fa-2x fa-cloud-download"></i>](/files/CV_JiamingZhang.pdf "Download pdf")
