@@ -17,8 +17,8 @@ date = "2023-01-23"
 
 ## Research Experience
 ---
-<p><b>BIGSS Lab, Laboratory for Computational Sensing and Robotics(LCSR), JHU</b></p>
-<b>ARCADE Lab, Laboratory for Computational Sensing and Robotics(LCSR), JHU</b>
+<p><b>BIGSS Lab, Johns Hopkins University</b></p>
+<b>ARCADE Lab, Johns Hopkins University</b>
 
 ## Working Experiences
 ---
