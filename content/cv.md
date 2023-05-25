@@ -18,12 +18,23 @@ date = "2023-01-23"
 ## Research Experience
 ---
 <p><b>BIGSS Lab, Johns Hopkins University</b></p>
+
+- Segment Any Medical Model
+- Robot TMS
+
 <b>ARCADE Lab, Johns Hopkins University</b>
+- XREGI
+
 
 ## Working Experiences
 ---
-<p> Narwal Robotics</p>
-<p> HUST-Wuxi </p>
+<p><b>Narwal Robotics</b></p>
+
+- SLAM Algorithm test and deployment
+
+<p><b>HUST-Wuxi</b></p>
+
+- 3D Steoro Camera Hand-eye Cablibration
 
 
 
