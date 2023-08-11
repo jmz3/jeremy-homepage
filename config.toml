@@ -48,7 +48,8 @@ customSCSS = []
 # Custom JS
 customJS = []
 
-favicon = "static/images/polyu-logo.png"
+# custom the favicon for the website
+favicon = "images/polyu-logo.png"
 
 # Custom remote JS files
 customRemoteJS = []
