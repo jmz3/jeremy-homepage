@@ -1,4 +1,4 @@
-baseURL = "http://jeremyzz830.github.io"
+baseURL = "http://jmz3.github.io"
 defaultContentLanguage = "en"
 enableEmoji = true
 languageCode = "en"
@@ -49,7 +49,7 @@ customSCSS = []
 customJS = []
 
 # custom the favicon for the website
-favicon = "images/polyu-logo.png"
+# favicon = "images/polyu-logo.png"
 
 # Custom remote JS files
 customRemoteJS = []

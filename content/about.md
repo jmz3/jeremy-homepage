@@ -37,6 +37,8 @@ Currently, I'm working as a research assisant in [BIOMECHANICAL AND IMAGE GUIDED
 We developed and maintained an open-source python package [xregi](https://github.com/jeremyzz830/xregi/tree/master) that is used to compute the projection matrix between 2D x-ray images and 3D CT scans. This process is also called as 2D/3D fluoroscopic image registration problem. The package is now available on Pypi. Install the pacakge through `pip install xregi` to try out!
 
 ## SAMM
-I'm excited to announce that our project [SAMM](https://github.com/bingogome/samm) has received many attentions from all over the world! Please reach out if you want to collaborate.
+I'm excited to announce that our project [SAMM](https://github.com/bingogome/samm) has received many attentions from all over the world! Please reach out if you want to collaborate. Here is a demo video of SAMM.
+
+{{< youtube vZK45noZVIA >}}
 
 
