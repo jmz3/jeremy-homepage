@@ -39,6 +39,6 @@ We developed and maintained an open-source python package [xregi](https://github
 ## SAMM
 I'm excited to announce that our project [SAMM](https://github.com/bingogome/samm) has received many attentions from all over the world! Please reach out if you want to collaborate. Here is a demo video of SAMM.
 
-{{< youtube vZK45noZVIA >}}
+{{< youtube ZK45noZVIA >}}
 
 
