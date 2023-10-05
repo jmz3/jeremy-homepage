@@ -19,7 +19,7 @@ As a robotics enthusiast with a strong interest in visual perception, motion pla
 
 # Ongoing Project
 
-Currently, I'm working as a research assisant in [BIOMECHANICAL AND IMAGE GUIDED SURGICAL SYSTEMS (BIGSS)](https://bigss.lcsr.jhu.edu/) laboratory under the supervision of [Prof. Mehran Armand](https://scholar.google.com/citations?user=0jQj6m4AAAAJ&hl=en). Here are the projects that I'm carrying out.
+Currently, I'm working as a research assisant in [BIOMECHANICAL AND IMAGE GUIDED SURGICAL SYSTEMS (BIGSS)](https://bigss.lcsr.jhu.edu/) laboratory under the supervision of [Prof. Mehran Armand](https://scholar.google.com/citations?user=0jQj6m4AAAAJ&hl=en) and [Prof. Alejandro Martin-Gomez](https://engineering.jhu.edu/faculty/alejandro-martin-gomez/). Here are the projects that I'm carrying out.
 
 - [Deformable Object Simulation](#deformable-object-simulation)
 - [Robot TMS](#robot-tms)
@@ -28,6 +28,8 @@ Currently, I'm working as a research assisant in [BIOMECHANICAL AND IMAGE GUIDED
 - [3D Slicer Integration with Segment Anything Model, aka SAMM (Segment Any Medical Model)](#samm)
 
 ## Deformable Object Simulation
+
+Realtime shape estimation of continuum objects and manipulators is essential for developing accurate planning and manipulation paradigms. The existing methods that create dense point clouds from camera images, and/or use distinguishable markers on a deformable body have limitations in realtime tracking of large continuum objects/manipulators and the physical occlusion of markers can often compromise accurate shape estimation. We propose a robust method to estimate the shape of linear deformable objects in realtime using scattered and unordered key points. By utilizing a robust probability-based labeling algorithm, our approach identifies the true order of the detected key points and then reconstructs the shape using piecewise spline interpolation. We demonstrate the robustness of the method when key points are partially occluded. We also show that the method can be used to estimate the shape of a continuum manipulator in realtime. The proposed method is implemented in C++ and integrated with ROS. The code is available [here](https://github.com/jmz3/DeformableEstimation).
 
 ## Robot TMS
 
