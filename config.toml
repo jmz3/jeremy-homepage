@@ -18,10 +18,13 @@ fontheading = "Raleway"
 # Changing font here is not enough, also change in _variables.css
 
 author = "Jiaming Zhang"
+
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 avatarURL = "images/IMG_0821.JPG"
 description = "Jiaming's personal website"
-info = [" <i>Veritas vos Liberabit</i> / <i>The truth will set you free</i> / <i>真理必将使你自由</i> "]
+# info = [" <i>Veritas vos Liberabit</i> / <i>The truth will set you free</i> / <i>真理必将使你自由</i> "]
+# info = ["<br><i> Any sufficiently advanced technology is indistinguishable from magic.</i> <br> <i> ——Arthur C. Clarke</i>"]
+info = ["<p align='center' style='font-size: 2.5rem' style='color: #808080'><i>Any sufficiently advanced technology is indistinguishable from magic.</i></p> <p align='right' style='font-size: 2rem'><i>——Arthur C. Clarke</i></p> "]
 keywords = "blog,developer,personal"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
@@ -56,6 +59,11 @@ favicon_16 = "/images/favicon-16x16.png"
 
 # Custom remote JS files
 customRemoteJS = []
+
+# Custom the info block
+# [params.info]
+# info = ["<i> Any sufficiently advanced technology is indistinguishable from magic.</i> <br> <i> &nbsp; ——Arthur C. Clarke</i>"]
+
 
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
 # [params.fathomAnalytics]
@@ -132,7 +140,7 @@ weight = 6
 [[params.social]]
 icon = "fa fa-2x fa-github"
 name = "Github"
-url = "https://github.com/jeremyzz830/"
+url = "https://github.com/jmz3/"
 weight = 1
 
 [[params.social]]
@@ -150,7 +158,7 @@ weight = 4
 [[params.social]]
 icon = "fa fa-2x fa-linkedin-square"
 name = "LinkedIn"
-url = "https://www.linkedin.com/in/jeremy-zhang-540042237/"
+url = "https://www.linkedin.com/in/jiaming-zhang-540042237/"
 weight = 3
 
 # [[params.social]]
