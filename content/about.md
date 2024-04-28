@@ -11,7 +11,11 @@ slug = "contact" -->
 
 # Bio
 
-Hello! My name is Jiaming (Jeremy) Zhang. I am a first-year Ph.D. student in Computer Sciecne at [The Johns Hopkins University](https://www.jhu.edu/). Prior joining in Hopkins, I received my Bachelor degree in Mechanical Engineering from [Huazhong University of Science and Technology](https://www.hust.edu.cn/), where I graduated with honors. Afterwards, I obtained my Master's degree in Robotics at Hopkins. I was an intern engineer at Narwal Robotics and HUST-Wuxi Research Institute. During my leisure time, I enjoy playing tennis, cooking and reading. 
+<img src="/images/IMG_0804.JPG" data-canonical-src="/images/IMG_0804.JPG" width="200"  align="right" style="padding-left: 40px; margin-bottom: 30px; margin-top: 30px; border-radius: 50%"/>
+
+<!-- <img src="/images/IMG_0804.JPG" data-canonical-src="/images/IMG_0804.JPG" width="200"  align="right" style="margin-bottom: 30px; margin-top: 30px; border-radius: 50%"/> -->
+
+Hello! My name is Jiaming (Jeremy) Zhang. I am a first-year Ph.D. student in Computer Sciecne at [The Johns Hopkins University](https://www.jhu.edu/). My reasearch focuses on the application of robotics in medical scenarios. Prior joining in Hopkins, I received my Bachelor degree in Mechanical Engineering from [Huazhong University of Science and Technology](https://www.hust.edu.cn/), where I graduated with honors. Afterwards, I obtained my Master's degree in Robotics at Hopkins. I was an intern engineer at Narwal Robotics and HUST-Wuxi Research Institute. During my leisure time, I enjoy playing tennis, cooking and reading. 
 
 
 # Research Interest and Experience
