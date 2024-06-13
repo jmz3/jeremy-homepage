@@ -23,7 +23,7 @@ As a robotics enthusiast with a strong interest in visual perception, motion pla
 
 # Ongoing Project
 
-Currently, I'm working as a research assisant in [BIOMECHANICAL AND IMAGE GUIDED SURGICAL SYSTEMS (BIGSS)](https://bigss.lcsr.jhu.edu/) laboratory under the supervision of [Prof. Mehran Armand](https://scholar.google.com/citations?user=0jQj6m4AAAAJ&hl=en) and [Prof. Alejandro Martin-Gomez](https://engineering.jhu.edu/faculty/alejandro-martin-gomez/). Here are the projects that I'm carrying out.
+Currently, I'm working as a research assisant in [BIOMECHANICAL AND IMAGE GUIDED SURGICAL SYSTEMS (BIGSS)](https://bigss.lcsr.jhu.edu/) laboratory under the supervision of [Prof. Mehran Armand](https://scholar.google.com/citations?user=0jQj6m4AAAAJ&hl=en), [Prof. Amir Kheradmand](), and [Prof. Alejandro Martin-Gomez](https://engineering.jhu.edu/faculty/alejandro-martin-gomez/). Here are the projects that I'm carrying out.
 
 - [Deformable Object Simulation](#deformable-object-simulation)
 - [Robot TMS](#robot-tms)
@@ -33,18 +33,30 @@ Currently, I'm working as a research assisant in [BIOMECHANICAL AND IMAGE GUIDED
 
 ## Deformable Object Simulation
 
-Realtime shape estimation of continuum objects and manipulators is essential for developing accurate planning and manipulation paradigms. The existing methods that create dense point clouds from camera images, and/or use distinguishable markers on a deformable body have limitations in realtime tracking of large continuum objects/manipulators and the physical occlusion of markers can often compromise accurate shape estimation. We propose a robust method to estimate the shape of linear deformable objects in realtime using scattered and unordered key points. By utilizing a robust probability-based labeling algorithm, our approach identifies the true order of the detected key points and then reconstructs the shape using piecewise spline interpolation. We demonstrate the robustness of the method when key points are partially occluded. We also show that the method can be used to estimate the shape of a continuum manipulator in realtime. The proposed method is implemented in C++ and integrated with ROS. The code is available [here](https://github.com/jmz3/DeformableEstimation).
+![Deformable Object Simulation](/images/ICRADemo2024.gif)
+
+ The existing methods of shape estimation of continuum objects create dense point clouds from camera images, and/or use distinguishable markers on a deformable body. They have natural limitations in realtime tracking of large continuum objects/manipulators and the physical occlusion of markers can often compromise accurate shape estimation. We propose a robust method to estimate the shape of linear deformable objects in realtime using scattered and unordered key points. By utilizing a robust probability-based labeling algorithm, our approach identifies the true order of the detected key points and then reconstructs the shape using piecewise spline interpolation. The proposed method is implemented in C++ and integrated with ROS. The code is available [here](https://github.com/jmz3/DeformableEstimation).
 
 ## Robot TMS
+
+<img src="/images/rotms.jpeg" data-canonical-src="/images/samme.png" alt="Robot TMS" align="right" style="width: 60%; padding-left: 50px; margin-bottom: 30px; margin-top: 0px"/>
+
+With our advanced robotic system, surgeons can easily and accurately deliver non-invasive stimulations to the cortical area of the brain. The system is designed to be easy to use and can be operated by a single person. The system is currently being tested in a clinical trial at the Johns Hopkins Hospital. 
 
 ## Position-based Visual Servoing
 
 ## Learning-based 2D/3D Fluoroscopic Image Registration
 We developed and maintained an open-source python package [xregi](https://github.com/jeremyzz830/xregi/tree/master) that is used to compute the projection matrix between 2D x-ray images and 3D CT scans. This process is also called as 2D/3D fluoroscopic image registration problem. The package is now available on Pypi. Install the pacakge through `pip install xregi` to try out!
 
-## SAMM
-I'm excited to announce that our project [SAMM](https://github.com/bingogome/samm) has received many attentions from all over the world! Please reach out if you want to collaborate. Here is a demo video of SAMM.
 
-{{< youtube ZK45noZVIA >}}
+## SAMM: Segment Any Medical Model
+
+<img src="/images/samme.png" data-canonical-src="/images/samme.png" width="350"  align="left" style="padding-right: 40px; margin-bottom: 10px; margin-top: 10px"/>
 
 
+I'm excited to announce that our project [SAMM](https://github.com/bingogome/samm) has received many attentions from all over the world! Please reach out if you want to collaborate. SAMM allows users to directly leverage the powerful Segment Anything Model (SAM) to segment medical images (including CT, MR, Ultrasound, and more) in 3D Slicer. 
+
+<!-- <br></br> -->
+
+## PoseHub: Surgical Tool Tracking with AR Headset
+We are developing a surgical tool tracking system that can be used with augmented reality headsets. The system is designed to provide real-time feedback to the surgeon about the location of the surgical tool. The system has a scene-graph structure that allows for easy integration with different tracking devices and visualization tools. A synthetic dataset is generated in ROS to test the system. The code is available [here](https://github.com/jmz3/PoseHub.git)
