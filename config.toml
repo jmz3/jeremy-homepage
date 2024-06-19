@@ -184,7 +184,7 @@ url = "about/"
 weight = 1
 
 [[languages.en.menu.main]]
-name = "Blog"
+name = "Research"
 url = "posts/"
 weight = 2
 

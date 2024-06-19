@@ -1,5 +1,6 @@
 +++
 title = "Install Nvidia Driver on Ubuntu 20.04"
+subtitle = "Technical Blog"
 author = "Jiaming Zhang"
 date = "2023-02-01"
 weight = 11
@@ -9,6 +10,7 @@ tags = ["Ubuntu","Nvidia","GPU"]
 menu = "main:posts"
 #draft = "true"
 plotly = "true"
+image = "/images/blog.png"
 +++
 
 

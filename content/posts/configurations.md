@@ -1,5 +1,6 @@
 +++
 title = "Configurations about Hugo-Coder Theme"
+subtitle = "Technical Blog"
 author = "Jiaming Zhang"
 date = "2023-01-10"
 weight = 11
@@ -9,6 +10,7 @@ tags = ["hugo","go","markdown","html","css","javascript","github","website"]
 menu = "main:posts"
 #draft = "true"
 plotly = "true"
+image = "/images/blog.png"
 +++
 # Configurations
 

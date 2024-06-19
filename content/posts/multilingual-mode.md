@@ -1,8 +1,13 @@
 +++
 title = "Multilingual-Mode"
+subtitle = "Technical Blog"
 author = "Jeremy"
 date = "2023-01-10"
 weight = 11
+
+menu = "main:posts"
+
+image = "/images/blog.png"
 +++
 
 # Multilingual-Mode
