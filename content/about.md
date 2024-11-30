@@ -26,4 +26,4 @@ Currently, I'm working as a research assisant in [BIOMECHANICAL AND IMAGE GUIDED
 # Academic Services
 - 2025 IEEE International Conference on Robotics & Automation (ICRA) Reviewer
 - IEEE RAS YRP Junior Reviewer
-
+- 2025 IPCAI Reviewer
