@@ -6,6 +6,11 @@ Date = "2023-01-30"
 
 Please follow this [link](https://scholar.google.com/citations?user=1m3l9W4AAAAJ&hl=en) to my google scholar page
 
+**An Image-Guided Robotic System for Transcranial Magnetic Stimulation: System Development and Experimental Evaluation**<br/>
+Yihao Liu, <u>Jiaming Zhang</u>, Letian Ai, Jing Tian, Shahriar Sefati, Huan Liu, Alejandro Martin-Gomez, Amir Kheradmand, Mehran Armand <br/>
+_IEEE Robotics and Automation Letters (RA-L), 2024_ <br/>
+[\[PDF\]](https://arxiv.org/abs/2410.15243)
+
 **Gbec: Geometry-based hand-eye calibration**<br/>
 Yihao Liu, <u>Jiaming Zhang</u>, Zhangcong She, Amir Kheradmand, Mehran Armand <br/>
 _IEEE/RSJ International Conference on Intelligent Robots and Systems (ICRA), 2024_ <br/>
