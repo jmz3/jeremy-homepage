@@ -216,6 +216,21 @@ name = "简历"
 url = "cv/"
 weight = 3
 
+[[languages.pt-cn.menu.main]]
+name = "关于"
+url = "about/"
+weight = 1
+
+[[languages.pt-cn.menu.main]]
+name = "研究"
+url = "posts/"
+weight = 2
+
+[[languages.pt-cn.menu.main]]
+name = "联系"
+url = "contact/"
+weight = 5
+
 # [languages.pt-br.params]
 # author = "João Ninguém"
 # info = "Full Stack DevOps e Mágico"
