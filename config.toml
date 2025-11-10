@@ -2,7 +2,7 @@ baseURL = "http://jmz3.github.io"
 defaultContentLanguage = "en"
 enableEmoji = true
 languageCode = "en"
-paginate = 20
+pagination.pagerSize = 20
 publishDir = "docs"
 pygmentsCodeFencesGuessSyntax = true
 pygmentsStyle = "bw"
@@ -127,14 +127,15 @@ series = "series"
 tag = "tags"
 
 [[params.social]]
-icon = "fa fa-2x fa-orcid"
+icon = "fa fa-brands fa-2x fa-orcid"
 name = "ORCID"
 url = "https://orcid.org/0009-0002-6787-8590"
 weight = 5
 
 [[params.social]]
-icon = "fa fa-2x fa-graduation-cap"
+icon = "fa fa-brands fa-google-scholar fa-2x"
 name = "Google Scholar"
+url = "https://scholar.google.com/citations?user=1m3l9W4AAAAJ&hl=en"
 weight = 6
 
 [[params.social]]

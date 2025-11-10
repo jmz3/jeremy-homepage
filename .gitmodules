@@ -1,0 +1,7 @@
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	url = git@github.com:luizdepra/hugo-coder.git
+	branch = main
+[submodule "docs"]
+	path = docs
+	url = git@github.com:jmz3/jmz3.github.io.git
