@@ -1,0 +1,59 @@
+{{ define "title" }}
+  {{ title (i18n (lower .Title)) | default .Title }} · {{ .Site.Title }}
+{{ end }}
+
+{{ define "content" }}
+  <section class="container list research">
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="{{ .Permalink | safeURL }}">
+          {{ title (i18n (lower .Title)) | default .Title }}
+        </a>
+      </h1>
+    </header>
+
+    {{ with .Content }}
+      <div class="research-intro">
+        {{ . }}
+      </div>
+    {{ end }}
+
+    {{/* Partition posts by subtitle */}}
+    {{ $mainPages := slice }}
+    {{ $softwarePages := slice }}
+    {{ $blogPages := slice }}
+    {{ range .Pages.ByWeight }}
+      {{ $subtitle := lower (default "" .Params.subtitle) }}
+      {{ if eq $subtitle "technical blog" }}
+        {{ $blogPages = $blogPages | append . }}
+      {{ else if eq $subtitle "software & open-source" }}
+        {{ $softwarePages = $softwarePages | append . }}
+      {{ else }}
+        {{ $mainPages = $mainPages | append . }}
+      {{ end }}
+    {{ end }}
+
+    {{ $counter := newScratch }}
+    {{ $counter.Set "i" 0 }}
+
+    {{ partial "research-items.html" (dict "pages" $mainPages "counter" $counter "listClass" "research-items") }}
+
+    {{ if gt (len $softwarePages) 0 }}
+      <div class="research-divider" aria-label="Software &amp; Open-source divider">
+        <span class="research-divider__line" aria-hidden="true"></span>
+        <span class="research-divider__label">Software &amp; Open-source</span>
+        <span class="research-divider__line" aria-hidden="true"></span>
+      </div>
+      {{ partial "research-items.html" (dict "pages" $softwarePages "counter" $counter "listClass" "research-items research-items--software" "itemModifier" "research-item--software") }}
+    {{ end }}
+
+    {{ if gt (len $blogPages) 0 }}
+      <div class="research-divider" aria-label="Technical Blog divider">
+        <span class="research-divider__line" aria-hidden="true"></span>
+        <span class="research-divider__label">Technical Blog</span>
+        <span class="research-divider__line" aria-hidden="true"></span>
+      </div>
+      {{ partial "research-items.html" (dict "pages" $blogPages "counter" $counter "listClass" "research-items research-items--blog" "itemModifier" "research-item--blog") }}
+    {{ end }}
+  </section>
+{{ end }}

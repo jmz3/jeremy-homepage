@@ -1,0 +1,70 @@
+{{- $pages := .pages -}}
+{{- $counter := .counter -}}
+{{- $listClass := .listClass | default "research-items" -}}
+{{- $itemModifier := .itemModifier | default "" -}}
+
+{{- if gt (len $pages) 0 }}
+  <ul class="{{ $listClass }}">
+    {{- range $page := $pages -}}
+      {{- $counter.Add "i" 1 -}}
+      {{- $pageLink := $page.Params.externalLink | default $page.RelPermalink -}}
+      {{- $summary := "" -}}
+      {{- if $page.Description -}}
+        {{- $summary = $page.Description -}}
+      {{- else if $page.Summary -}}
+        {{- $summary = $page.Summary | plainify -}}
+      {{- end -}}
+      {{- if gt (len $summary) 260 -}}
+        {{- $summary = truncate 260 $summary -}}
+      {{- end -}}
+
+      <li class="research-item{{ if $itemModifier }} {{ $itemModifier }}{{ end }}">
+        <div class="research-item__index">
+          {{ printf "%02d" ($counter.Get "i") }}
+        </div>
+        <article>
+          <div class="research-item__meta">
+            <span class="research-item__date">
+              {{ $page.Date | time.Format ($page.Site.Params.dateFormat | default "January 2, 2006" ) }}
+            </span>
+            {{ with $page.Params.subtitle }}
+              <span class="research-item__subtitle">{{ . }}</span>
+            {{ end }}
+          </div>
+          <h2 class="research-item__title">
+            <a href="{{ $pageLink }}">{{ $page.Title }}</a>
+          </h2>
+          {{ with $summary }}
+            <p class="research-item__summary">{{ . }}</p>
+          {{ end }}
+          {{ $links := $page.Params.links }}
+          {{ if $links }}
+            <div class="research-item__links">
+              {{ range $link := $links }}
+                {{ $label := or $link.label $link.text $link.name }}
+                {{ $href := or $link.url $link.href }}
+                {{ if and $label $href }}
+                  {{ $target := $link.target | default "" }}
+                  {{ $isExternal := or (hasPrefix $href "http://") (hasPrefix $href "https://") }}
+                  <a class="research-item__link-badge"
+                    href="{{ $href }}"
+                    {{- if $target -}}
+                      target="{{ $target }}"
+                    {{- else if $isExternal -}}
+                      target="_blank"
+                    {{- end -}}
+                    {{- if or (and (eq $target "") $isExternal) (eq $target "_blank") -}}
+                      rel="noopener noreferrer"
+                    {{- end -}}>
+                    {{ with $link.icon }}<span class="research-item__link-icon {{ . }}"></span>{{ end }}
+                    <span>{{ $label }}</span>
+                  </a>
+                {{ end }}
+              {{ end }}
+            </div>
+          {{ end }}
+        </article>
+      </li>
+    {{- end -}}
+  </ul>
+{{- end }}
