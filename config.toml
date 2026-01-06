@@ -1,4 +1,4 @@
-baseURL = "http://jmz3.github.io"
+baseURL = "https://zhang-jiaming.com/"
 defaultContentLanguage = "en"
 enableEmoji = true
 languageCode = "en"
@@ -17,7 +17,7 @@ fontbody = "Raleway"
 fontheading = "Raleway"
 # Changing font here is not enough, also change in _variables.css
 
-author = "Jiaming Zhang"
+author = "Jeremy Zhang"
 
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 avatarURL = "images/IMG_0821.JPG"

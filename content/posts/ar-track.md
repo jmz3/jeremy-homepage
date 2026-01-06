@@ -7,7 +7,6 @@ date = "2024-02-01"
 weight = 1
 categories = ["technical","guide"]
 tags = ["AR", "Tracking"]
-#draft = "true"
 plotly = "true"
 image = "/images/ar_demo.gif"
 
