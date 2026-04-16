@@ -16,7 +16,7 @@ url = "/pdfs/dart-vinci-paper.pdf"
 
 [[links]]
 label = "ArXiv"
-url = "https://arxiv.org/abs/your-paper-id"
+url = "https://arxiv.org/abs/2503.05646"
 
 [[links]]
 label = "Website"
@@ -24,7 +24,7 @@ url = "https://your-project-website.com"
 
 [[links]]
 label = "Code"
-url = "https://github.com/your-github-repo"
+url = "https://github.com/SMSL-Project/py-dart-vinci"
 +++
 
 
