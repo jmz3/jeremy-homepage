@@ -19,15 +19,15 @@ _IEEE Robotics and Automation Letters (RA-L), 2025_
 ### Conference Papers
 
 - **Extend Your Horizon: A Device-Agnostic Surgical Tool Tracking Framework with Multi-View Optimization for Augmented Reality**  
-  Jiaming Zhang, Mingxu Liu, Hongchao Shu, Ruixing Liang, Yihao Liu, Ojas Taskar, Amir Kheradmand, Mehran Armand, Alejandro Martin-Gomez
+  Jiaming Zhang, Mingxu Liu, Hongchao Shu, Ruixing Liang, Yihao Liu, Ojas Taskar, Amir Kheradmand, Mehran Armand, Alejandro Martin-Gomez <br> 
   _IEEE Conference on Virtual Reality and 3D User Interfaces (VR), 2026_
 
 - **dARt Vinci: Egocentric Data Collection for Surgical Robot Learning at Scale**  
-   Yihao Liu, Yu-Chun Ku, <u>Jiaming Zhang</u>, Hao Ding, Peter Kazanzides, Mehran Armand
+   Yihao Liu, Yu-Chun Ku, <u>Jiaming Zhang</u>, Hao Ding, Peter Kazanzides, Mehran Armand <br>
   _IEEE International Conference on Intelligent Robots and Systems (IROS), 2025_
 
 - **Gbec: Geometry-based Hand-eye Calibration**  
-  Yihao Liu, <u>Jiaming Zhang</u>, Zhangcong She, Amir Kheradmand, Mehran Armand  
+  Yihao Liu, <u>Jiaming Zhang</u>, Zhangcong She, Amir Kheradmand, Mehran Armand <br>
   _IEEE International Conference on Robotics and Automation (ICRA), 2024_
 
 - **Realtime Robust Shape Estimation of Deformable Linear Object**  
