@@ -11,10 +11,6 @@ plotly = "true"
 image = "/images/ar_demo.gif"
 
 [[links]]
-label = "Code"
-url = "https://github.com/jmz3/PoseHub"
-
-[[links]]
 label = "PDF"
 url = "/pdfs/extend_your_horizon.pdf"
 
@@ -23,7 +19,12 @@ label = "ArXiv"
 url = "https://arxiv.org/abs/2603.07981"
 
 [[links]]
-label = "Website"
-url = "https://your-project-website.com"
+label = "Code"
+url = "https://github.com/jmz3/PoseHub"
+
+# [[links]]
+# label = "Website"
+# url = "https://your-project-website.com"
 
 +++
+
